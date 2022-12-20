@@ -82,7 +82,7 @@ async function routine({ wikiartBaseUrl, wikiartAccessKey, wikiartSecretKey, art
             {
                 status: `${wikiartBaseUrl}/${painting.artistUrl}/${painting.url} \n ${hashtags.join(' ')} `,
                 spoiler_text: `${painting.title}, ${painting.completitionYear} by ${painting.artistName}`,
-                visibility: 'unlisted',
+                visibility: 'public',
                 sensitive: true,
                 media_ids: [media.id],
                 language: 'en'
