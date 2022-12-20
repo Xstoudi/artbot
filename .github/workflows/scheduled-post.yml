@@ -1,0 +1,19 @@
+name: Scheduled art posting
+on:
+  schedule:
+    - cron: '00 16 * * *'
+  gollum:
+jobs:
+  build:
+    name: Post
+    runs-on: ubuntu-latest
+     steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '18.x'
+      - run: npm install
+      - name: Run script
+        run: npm start
+        env:
+          CONFIG: ${{ secrets.CONFIG }}
