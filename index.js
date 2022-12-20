@@ -11,7 +11,7 @@ async function routine({ wikiartBaseUrl, wikiartAccessKey, wikiartSecretKey, art
 
     const { SessionKey: wikiartSession } = wikiArtAuth
 
-    const offset = Math.ceil((new Date().getTime() - new Date('12/15/2022').getTime()) / (1000 * 60 * 60 * 24))
+    const offset = Math.ceil((new Date().getTime() - new Date('12/19/2022').getTime()) / (1000 * 60 * 60 * 24))
 
     const painting = await getDailyPainting(offset)
     await downloadAndSave(painting.image)
