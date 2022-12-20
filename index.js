@@ -76,6 +76,7 @@ async function routine({ wikiartBaseUrl, wikiartAccessKey, wikiartSecretKey, art
         const hashtags = [...painting.genres, ...painting.styles, ...constHashtags]
             .map(x => x.toLowerCase())
             .map(x => x.replaceAll(' ', '_'))
+            .map(x => x.replaceAll('-', '_'))
             .map(x => `#${x}`)
         await axios.post(
             `${mastoUrl}/api/v1/statuses`,
