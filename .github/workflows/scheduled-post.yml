@@ -1,7 +1,7 @@
 name: Scheduled art posting
 on:
   schedule:
-    - cron: '15 12 * * *'
+    - cron: '35 12 * * *'
 jobs:
   build:
     name: Post
