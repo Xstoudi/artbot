@@ -5,7 +5,7 @@ Daily dose of art from Wikiart to Fediverse.
 ## Active accounts
 | Fediverse Account          	| Artist 	|
 |------------------	|--------	|
-| [@artbotbeksinski](https://tooting.ch/@artbotbeksinski) 	| [Zdzislaw Beksinski](https://www.wikiart.org/en/zdzislaw-beksinski)   	|
+| [@artbotbeksinski@tooting.ch](https://tooting.ch/@artbotbeksinski) 	| [Zdzislaw Beksinski](https://www.wikiart.org/en/zdzislaw-beksinski)   	|
 
 
 ## How it works?
