@@ -2,6 +2,7 @@ name: Scheduled art posting
 on:
   schedule:
     - cron: '00 13 * * *'
+  gollum:
 jobs:
   build:
     name: Post
