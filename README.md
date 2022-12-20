@@ -9,4 +9,4 @@ Daily dose of art from Wikiart to Fediverse.
 
 
 ## How it works?
-A GitHub action is scheduled to run every day à 12PM UTC fetch an image from Wikiart for each artist then post it to the Fediverse through a Mastodon instance.
+A GitHub action is scheduled to run every day at 12PM UTC fetch an image from Wikiart for each artist then post it to the Fediverse through a Mastodon instance.
